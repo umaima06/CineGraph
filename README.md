@@ -201,9 +201,6 @@ npm run dev       # http://localhost:5173, proxies /api to the backend
 | Backend | Render / Railway (free tier) | Set the same three env vars |
 | Frontend | Vercel / Netlify | Set `VITE_API_URL` to your deployed backend URL |
 
-**Live demo:** _add your hosted link here before submitting_
-**Screen recording:** _add your Loom/OBS link here before submitting_
-
 ---
 
 ## 🛡️ Error handling
@@ -211,30 +208,29 @@ npm run dev       # http://localhost:5173, proxies /api to the backend
 If CognoDB is unreachable, the API logs the failure at boot, still starts, and every route returns a `503` with a clear message rather than crashing. The frontend surfaces this as a dedicated error state with a retry button on every panel.
 
 ---
-## Live Demo: 
+## 🌐 Live Demo
 https://cine-graph-oiijxskyr-assessments1.vercel.app/
 
-## Screen Recording:
+## 🎬 Screen Recording
 Click below to watch a 2 minute walkthrough of CineGraph:
-https://drive.google.com/file/d/1ptC5gL8NvXPZ_Z8mhpFJSJ0nB4gM4jY2/view?usp=sharing
-
+👉 **[▶️ Watch the CineGraph Demo](https://drive.google.com/file/d/1ptC5gL8NvXPZ_Z8mhpFJSJ0nB4gM4jY2/view?usp=sharing)**
 ---
-## 📸 Screenshots: 
+## 📸 Screenshots 
 
-Home page - search by movie title/director & genre pills
-![alt text](images/image.png)
+Home page 
+![CineGraph home page](images/image.png)
+
+Search by movie title/director & genre pills
+![Search bar & genre pills](images/image-1.png)
 
 Selected movie
-![alt text](images/image-1.png)
+![Selected movie details](images/image-4.png)
 
-Movies of same Cast
-![alt text](images/image-4.png)
-
-Movies of same Director
-![alt text](images/image-5.png)
+Movies of same Cast and same Director
+![Movies by the same cast & director](images/image-5.png)
 
 Movies of same Genre
-![alt text](images/image-6.png)
+![Movies in the same genre](images/image-6.png)
 
 Actor Network
-![alt text](images/image.png)
+![Actor second-degree network](images/image-7.png)
