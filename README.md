@@ -233,4 +233,4 @@ Movies of same Genre
 ![Movies in the same genre](images/image-6.png)
 
 Actor Network
-![Actor second-degree network](images/image-7.png)
+![Actor second-degree network](images/image7.png)
